@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h3>formulario de registro</h3>
+        <form action="">
+
+
+            <label for="nombre"> ingrese su nombre
+            <input type="text" id="nombre" placeholder="coloque su nombre">
+            </label> <br> <br>  
+
+            <label for="apellido"> ingrese su apellido
+                <input type="text" id="apellido" placeholder="coloque su apellido">
+            </label> <br> <br>
+
+            <label for="correo"> ingrese su correo
+                <input type="email"id="correo" placeholder="ingrese su correo electronico">
+            </label> <br> <br>
+
+            <label> ¿que habitación prefieres? <br>
+                <input type="checkbox" name="chica" value=""> chica <br>
+                <input type="checkbox" name="mediana" value=""> mediana <br>
+                <input type="checkbox" name="grande" value=""> grande
+            </label> <br> <br>
+
+            <label> ¿desea servicio en la habitación? <br>
+                <input type="radio" name="habitacion" value="si">afirmativo <br>
+                <input type="radio" name="habitacion" value="no">negativo <br>
+             </label> <br>
+
+
+             <label for="pais">selecciona pais de procedencia
+                 <select name="pais de origen" id="pais">
+                     <option value="" disabled selected>pais</option>
+                     <option value="Argentina">Argentina</option>
+                     <option value="Brazil">Brazil</option>
+                     <option value="Bolivia">Bolivia</option>
+                     <option value="Paraguay">Paraguay</option>
+                     <option value="Uruguay">Uruguay</option>
+                     <option value="india">india</option>
+                 </select>
+
+             </label> <br> <br>
+
+
+             <label> Escriba información extra <br>
+                <textarea name="texto" maxlength="300" cols="30" rows="10"></textarea>
+
+             </label>
+
+             <label>
+                 <input type="button"value="Boton">
+                 <input type="reset"value="reseteador">
+                <button type="submit">Enviar</button>
+            </label> <br> <br>
+
+
+             
+
+         </form>
+
+    </section>
+    
+</body>
+</html>
