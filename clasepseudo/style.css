@@ -1,0 +1,13 @@
+div > p{
+    color: gold;
+}
+article > p {
+    color: chartreuse;
+}
+section > p {
+    color: rgb(56, 54, 66);
+}
+
+div p{
+    color: chocolate;
+}
