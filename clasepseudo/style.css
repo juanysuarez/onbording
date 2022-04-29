@@ -1,13 +1,29 @@
-div > p{
-    color: gold;
-}
-article > p {
-    color: chartreuse;
-}
-section > p {
-    color: rgb(56, 54, 66);
+*{
+    padding: 0;
+    margin: 0;
 }
 
-div p{
-    color: chocolate;
+
+.zucugol-godines{
+    margin-top: 10px;
+    list-style: none;
+    background-color:lawngreen
+}
+
+.messi-enbolainas{
+    display: inline-block;
+    padding-left: 10px;
+}
+.messi-enbolainas a{
+    color:orangered;
+    text-decoration: none;
+}
+.messi-enbolainas a:hover{
+    color:yellow;
+}
+.messi-enbolainas a:active{
+    color: navy;
+}
+    .messi-enbolainas a::after{
+    content:"  |  ";
 }
