@@ -1,0 +1,24 @@
+.block-elements {
+    background-color: darkkhaki;
+    margin: 20px;
+    padding: 15px;
+}
+.parrafo{
+    background-color: oldlace;
+    margin: 15px;
+    padding: 20px;
+}
+.nav{
+    background-color: orange;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+.nav li{
+    display: inline-block;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
