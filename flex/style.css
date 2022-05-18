@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.container{
+    border: solid black 0.2rem;
+    display: flex;
+    height: 40rem;
+    align-items: stretch;
+    
+}
+.box1{
+    background-color: darkgoldenrod;
+}
+.box2{
+    background-color: lightgoldenrodyellow;
+}
+.box3{
+    background-color: maroon;
+}
+.box4{
+    background-color: deeppink;
+}
+.box5{
+    background-color: orangered;
+}
+.box6{
+    background-color: red;
+}
