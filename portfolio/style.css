@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.elmer{
+    margin: 0;
+    list-style: none;
+    background-color: rgb(26, 174, 215);
+}
+.portfolio{
+    display: inline-block;
+    padding-left: 25px;
+}
+.portfolio a{
+    color: rgb(255, 21, 0);
+    text-decoration: none;
+}
+.portfolio a:hover{
+    color: green;
+}
